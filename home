@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            height: 10vh; /* Half of the original height */
+            background-color: #d4edda; /* Soft green color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            height: 90vh; /* Adjusted to fill the remaining space */
+        }
+        .menu {
+            width: 10%; /* Half of the original width */
+            background-color: #2f4f4f; /* Dark green color */
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 20px 0; /* Increase space between items */
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em; /* Increase font size */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Apply Segoe UI font */
+        }
+        .main {
+            width: 90%; /* Adjusted to fill the remaining space */
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f5f5dc; /* Light beige color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World!</h1>
+    </header>
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <!-- Main content goes here -->
+        </div>
+    </div>
+</body>
+</html>
